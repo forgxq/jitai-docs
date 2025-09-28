@@ -38,6 +38,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         content: 'E1854FDB4BA5E984',
       },
     },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'baidu-site-verification',
+        content: 'codeva-pmUJofMRgx',
+      },
+    },
   ],
 
   // GitHub pages deployment config.
@@ -46,7 +53,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   projectName: 'jitai-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
   onBrokenAnchors: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -68,7 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       },
     },
   },
-  noIndex: false, // 等文档完善后，再放开
+  noIndex: false, 
 
   presets: [
     [
@@ -106,6 +112,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   clientModules: ['./src/clientModules/readingProgress.js'],
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
   },
   themes: ['@docusaurus/theme-mermaid'],
   themeConfig: {
@@ -205,7 +214,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             },
             {
               label: 'Download',
-              to: '/docs/tutorial/download-installation',
+              to: '/download',
             },
             {
               label: 'Try Online',
@@ -267,7 +276,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         width: 340,
         height: 100
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Jit, Inc. Built with WanYun Co., Ltd.`,
+      copyright: `Copyright © ${new Date().getFullYear()} , jitai platform LLC.`,
     },
     prism: {
       theme: prismThemes.github,
