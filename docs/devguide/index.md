@@ -25,14 +25,14 @@ Master the core concepts and architecture principles of the JitAi platform. Unde
   description="Understand JitAi platform architecture, application concepts, JAAP protocol, element systems, and development frameworks to master the fundamental principles of the platform."
 >
   <LinkGrid columns={2} links={[
-    { text: "Platform and Applications", href: "devguide/basic-concept#platform-and-applications" },
-    { text: "DevOps Tools and Services", href: "devguide/basic-concept#devops-tools-and-services" },
-    { text: "Application Creation and Development", href: "devguide/basic-concept#application-creation-and-development" },
-    { text: "JAAP Protocol and Elements", href: "devguide/basic-concept#jaap-protocol-and-elements" },
-    { text: "Element Type and Element Loading", href: "devguide/basic-concept#element-type-and-element-loading" },
-    { text: "Development Framework", href: "devguide/basic-concept#development-framework" },
-    { text: "Business Applications and Application Inheritance", href: "devguide/basic-concept#business-applications-and-application-inheritance" },
-    { text: "Development Tools", href: "devguide/basic-concept#development-tools" },
+    { text: "Platform and applications", href: "devguide/basic-concept#platform-and-applications" },
+    { text: "DevOps tools and services", href: "devguide/basic-concept#devops-tools-and-services" },
+    { text: "Application creation and development", href: "devguide/basic-concept#application-creation-and-development" },
+    { text: "JAAP protocol and elements", href: "devguide/basic-concept#jaap-protocol-and-elements" },
+    { text: "Element types and element loading", href: "devguide/basic-concept#element-type-and-element-loading" },
+    { text: "Development framework", href: "devguide/basic-concept#development-framework" },
+    { text: "Business applications and application inheritance", href: "devguide/basic-concept#business-applications-and-application-inheritance" },
+    { text: "Development tools", href: "devguide/basic-concept#development-tools" },
     { text: "Extension", href: "devguide/basic-concept#extension" }
   ]} />
 </IndexCard>
@@ -95,16 +95,19 @@ Powerful toolchain for efficient development. Master visual development environm
   description="Master the powerful visual development environment, familiarize yourself with IDE functional areas, and learn to switch between visual and source code modes."
 >
   <LinkGrid links={[
-    { text: "Element Directory Tree", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#element-directory-tree" },
-    { text: "Add Element", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#add-element" },
-    { text: "Visual Editor", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#visual-editor" },
-    { text: "Source Code Editor", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#source-code-editor" },
-    { text: "Source Code File Tree", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#source-code-file-tree" },
-    { text: "Application Settings", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#application-settings" },
-    { text: "Portal Switching", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#portal-switching" },
-    { text: "Personal Center", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#personal-center" },
-    { text: "Language Switch", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#language-switch" },
-    { text: "Navigation Tabs", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#navigation-tabs" }
+    { text: "Element directory tree", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#element-directory-tree" },
+    { text: "Adding elements", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#adding-elements" },
+    { text: "Visual editor", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#visual-editor" },
+    { text: "Source code editor", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#source-code-editor" },
+    { text: "Source code file tree", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#source-code-file-tree" },
+    { text: "Application settings", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#application-settings" },
+    { text: "Basic information", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#basic-information" },
+    { text: "Default elements", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#default-elements" },
+    { text: "Environment variables", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#environment-variables" },
+    { text: "Portal switching", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#portal-switching" },
+    { text: "Personal center", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#personal-center" },
+    { text: "Language switching", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#language-switching" },
+    { text: "Navigation tabs", href: "devguide/development-tool-and-publish-service/jitai-visual-development-tools#navigation-tabs" }
   ]} />
 </IndexCard>
 
@@ -115,15 +118,16 @@ Powerful toolchain for efficient development. Master visual development environm
 >
   <LinkGrid links={[
     { text: "Dual Console Architecture", href: "devguide/development-tool-and-publish-service/devops-management-tool#dual-console-architecture" },
-    { text: "Local Node Console", href: "devguide/development-tool-and-publish-service/devops-management-tool#local-node-console" },
-    { text: "Organization Management Console", href: "devguide/development-tool-and-publish-service/devops-management-tool#organization-management-console" },
-    { text: "Application Lifecycle Management", href: "devguide/development-tool-and-publish-service/devops-management-tool#application-lifecycle-management" },
-    { text: "Runtime Environment Management", href: "devguide/development-tool-and-publish-service/devops-management-tool#runtime-environment-management" },
-    { text: "Node Cluster Management", href: "devguide/development-tool-and-publish-service/devops-management-tool#node-cluster-management" },
-    { text: "Flexible Configuration Management", href: "devguide/development-tool-and-publish-service/devops-management-tool#flexible-configuration-management" },
-    { text: "Version Release and Deployment", href: "devguide/development-tool-and-publish-service/devops-management-tool#version-release-and-deployment" },
-    { text: "Multi-platform Export", href: "devguide/development-tool-and-publish-service/devops-management-tool#multi-platform-export" },
-    { text: "Application Template Ecosystem", href: "devguide/development-tool-and-publish-service/devops-management-tool#application-template-ecosystem" }
+    { text: "Local node console", href: "devguide/development-tool-and-publish-service/devops-management-tool#local-node-console" },
+    { text: "Organization management console", href: "devguide/development-tool-and-publish-service/devops-management-tool#organization-management-console" },
+    { text: "Core Capabilities Overview", href: "devguide/development-tool-and-publish-service/devops-management-tool#core-capabilities-overview" },
+    { text: "Application lifecycle management", href: "devguide/development-tool-and-publish-service/devops-management-tool#application-lifecycle-management" },
+    { text: "Runtime environment management", href: "devguide/development-tool-and-publish-service/devops-management-tool#runtime-environment-management" },
+    { text: "Node cluster management", href: "devguide/development-tool-and-publish-service/devops-management-tool#node-cluster-management" },
+    { text: "Flexible configuration management", href: "devguide/development-tool-and-publish-service/devops-management-tool#flexible-configuration-management" },
+    { text: "Version release and deployment", href: "devguide/development-tool-and-publish-service/devops-management-tool#version-release-and-deployment" },
+    { text: "Multi-platform export", href: "devguide/development-tool-and-publish-service/devops-management-tool#multi-platform-export" },
+    { text: "Application template ecosystem", href: "devguide/development-tool-and-publish-service/devops-management-tool#application-template-ecosystem" }
   ]} />
 </IndexCard>
 
@@ -133,9 +137,9 @@ Powerful toolchain for efficient development. Master visual development environm
   description="Official cloud application publishing service providing centralized application repository, version management, and seamless deployment across JitNodes."
 >
   <LinkGrid links={[
-    { text: "Synchronizing Runtime Environment Configuration", href: "devguide/development-tool-and-publish-service/jcs-cloud-publishing-service#synchronizing-runtime-environment-configuration" },
-    { text: "Retrieving Version Update Information", href: "devguide/development-tool-and-publish-service/jcs-cloud-publishing-service#retrieving-version-update-information" },
-    { text: "Accessing Cloud Application Repository", href: "devguide/development-tool-and-publish-service/jcs-cloud-publishing-service#accessing-cloud-application-repository" }
+    { text: "Synchronizing runtime environment configuration from JCS", href: "devguide/development-tool-and-publish-service/jcs-cloud-publishing-service#synchronizing-runtime-environment-configuration" },
+    { text: "Retrieving version update information from JCS", href: "devguide/development-tool-and-publish-service/jcs-cloud-publishing-service#retrieving-version-update-information" },
+    { text: "Accessing cloud application repository through JCS", href: "devguide/development-tool-and-publish-service/jcs-cloud-publishing-service#accessing-cloud-application-repository" }
   ]} />
 </IndexCard>
 
@@ -152,10 +156,14 @@ Complete workflow from application creation to distributed deployment. Master ap
   description="Learn application creation, inheritance, data configuration, and deployment. Master the fundamentals of application development workflow."
 >
   <LinkGrid links={[
-    { text: "Create First Application", href: "devguide/creating-and-publishing-applications/creating-and-deploying-applications#create-first-application" },
-    { text: "Rapid Development Based on Existing Apps", href: "devguide/creating-and-publishing-applications/creating-and-deploying-applications#based-on-existing-application-quick-development" },
-    { text: "Data Storage and Environment Variables", href: "devguide/creating-and-publishing-applications/creating-and-deploying-applications#data-storage-and-environment-variable-configuration" },
-    { text: "Application Deployment", href: "devguide/creating-and-publishing-applications/creating-and-deploying-applications#application-deployment" }
+    { text: "Creating Your First Application", href: "devguide/creating-and-publishing-applications/creating-and-deploying-applications#creating-first-application" },
+    { text: "Developing Applications Based on Existing Templates", href: "devguide/creating-and-publishing-applications/creating-and-deploying-applications#developing-applications-based-on-existing-templates" },
+    { text: "Inheriting from Applications", href: "devguide/creating-and-publishing-applications/creating-and-deploying-applications#inheriting-from-applications" },
+    { text: "Duplicating Applications", href: "devguide/creating-and-publishing-applications/creating-and-deploying-applications#duplicating-applications" },
+    { text: "Configuring Data Storage and Environment Variables", href: "devguide/creating-and-publishing-applications/creating-and-deploying-applications#configuring-data-storage-and-environment-variables" },
+    { text: "Deploying Applications", href: "devguide/creating-and-publishing-applications/creating-and-deploying-applications#deploying-applications" },
+    { text: "Deploying Applications on Specified Nodes", href: "devguide/creating-and-publishing-applications/creating-and-deploying-applications#deploying-applications-on-specified-nodes" },
+    { text: "Deploying Applications in Specified Runtime Environments", href: "devguide/creating-and-publishing-applications/creating-and-deploying-applications#deploying-applications-in-specified-runtime-environments" }
   ]} />
 </IndexCard>
 
@@ -165,27 +173,29 @@ Complete workflow from application creation to distributed deployment. Master ap
   description="Understand JitAi application directory structure based on JAAP protocol, element code organization, and source code export/import mechanisms."
 >
   <LinkGrid links={[
-    { text: "Application Directory Structure", href: "devguide/creating-and-publishing-applications/application-directory-and-element-source-code#application-directory-structure" },
-    { text: "Element Code Directory Structure", href: "devguide/creating-and-publishing-applications/application-directory-and-element-source-code#element-code-directory-structure" },
-    { text: "Application Source Code Export/Import", href: "devguide/creating-and-publishing-applications/application-directory-and-element-source-code#application-export-import" },
-    { text: "Export Source Code Zip", href: "devguide/creating-and-publishing-applications/application-directory-and-element-source-code#export-source-code-zip" },
-    { text: "Export to WeChat MiniProgram", href: "devguide/creating-and-publishing-applications/application-directory-and-element-source-code#export-to-wechat-miniprogram" },
-    { text: "Import Application Source Code", href: "devguide/creating-and-publishing-applications/application-directory-and-element-source-code#import-application-source-code" }
+    { text: "Understanding application directory structure", href: "devguide/creating-and-publishing-applications/application-directory-and-element-source-code#application-directory-structure" },
+    { text: "Understanding element code directory structure", href: "devguide/creating-and-publishing-applications/application-directory-and-element-source-code#element-code-directory-structure" },
+    { text: "Exporting and importing application source code", href: "devguide/creating-and-publishing-applications/application-directory-and-element-source-code#application-export-import" },
+    { text: "Exporting source code zip packages", href: "devguide/creating-and-publishing-applications/application-directory-and-element-source-code#export-source-code-zip" },
+    { text: "Exporting to WeChat MiniProgram", href: "devguide/creating-and-publishing-applications/application-directory-and-element-source-code#export-to-wechat-miniprogram" },
+    { text: "Importing application source code packages", href: "devguide/creating-and-publishing-applications/application-directory-and-element-source-code#import-application-source-code" }
   ]} />
 </IndexCard>
 
 <IndexCard
-  title="Publishing and Updating Applications"
-  href="devguide/creating-and-publishing-applications/publishing-and-updating-applications"
-  description="Master application version management, publishing workflows, and update strategies. Learn semantic versioning and deployment configurations."
+  title="Publishing and Upgrading Applications"
+  href="devguide/creating-and-publishing-applications/publishing-and-upgrading-applications"
+  description="Master application version management, publishing workflows, and upgrade strategies. Learn semantic versioning and deployment configurations."
 >
   <LinkGrid links={[
-    { text: "Version Management and Publishing", href: "devguide/creating-and-publishing-applications/publishing-and-updating-applications#application-version-management-and-publish" },
-    { text: "Semantic Versioning", href: "devguide/creating-and-publishing-applications/publishing-and-updating-applications#semantic-versioning" },
-    { text: "Auto-Update Configuration", href: "devguide/creating-and-publishing-applications/publishing-and-updating-applications#force-auto-update" },
-    { text: "Source Code and Initialization Data", href: "devguide/creating-and-publishing-applications/publishing-and-updating-applications#include-source-code" },
-    { text: "Application Version Updates", href: "devguide/creating-and-publishing-applications/publishing-and-updating-applications#application-version-updates" },
-    { text: "Deployment Strategies", href: "devguide/creating-and-publishing-applications/publishing-and-updating-applications#application-deployment-strategies" }
+    { text: "Managing application version and publishing", href: "devguide/creating-and-publishing-applications/publishing-and-upgrading-applications#application-version-management-and-publish" },
+    { text: "Understanding semantic versioning", href: "devguide/creating-and-publishing-applications/publishing-and-upgrading-applications#semantic-versioning" },
+    { text: "Setting automatic updates", href: "devguide/creating-and-publishing-applications/publishing-and-upgrading-applications#force-auto-update" },
+    { text: "Writing meaningful update logs", href: "devguide/creating-and-publishing-applications/publishing-and-upgrading-applications#meaningful-update-logs" },
+    { text: "Including source code", href: "devguide/creating-and-publishing-applications/publishing-and-upgrading-applications#include-source-code" },
+    { text: "Including initialization data", href: "devguide/creating-and-publishing-applications/publishing-and-upgrading-applications#include-initialization-data" },
+    { text: "Upgrading application versions", href: "devguide/creating-and-publishing-applications/publishing-and-upgrading-applications#application-version-updates" },
+    { text: "Planning application deployment strategies", href: "devguide/creating-and-publishing-applications/publishing-and-upgrading-applications#application-deployment-strategies" }
   ]} />
 </IndexCard>
 
@@ -196,13 +206,17 @@ Complete workflow from application creation to distributed deployment. Master ap
   description="Master the creation, configuration, and management of runtime environments, and learn how to use node clusters and application deployment."
 >
   <LinkGrid links={[
-    { text: "What is Runtime Environment", href: "devguide/creating-and-publishing-applications/runtime-environment-management#what-is-runtime-environment" },
-    { text: "Local Default Runtime Environment", href: "devguide/creating-and-publishing-applications/runtime-environment-management#node-local-default-runtime-environment" },
-    { text: "Create New Runtime Environment", href: "devguide/creating-and-publishing-applications/runtime-environment-management#createnewrunenvironment" },
-    { text: "Development Mode Deployment", href: "devguide/creating-and-publishing-applications/runtime-environment-management#deploy-in-development-mode" },
-    { text: "Production Mode Deployment", href: "devguide/creating-and-publishing-applications/runtime-environment-management#deploy-in-production-mode" },
-    { text: "Use Runtime Environment to Manage Node Clusters", href: "devguide/creating-and-publishing-applications/runtime-environment-management#use-runtime-environment-to-manage-node-clusters" },
-    { text: "Deploy Application in Runtime Environment", href: "devguide/creating-and-publishing-applications/runtime-environment-management#deploy-application-in-runtime-environment" }
+    { text: "Understanding runtime environments", href: "devguide/creating-and-publishing-applications/runtime-environment-management#what-is-runtime-environment" },
+    { text: "Managing node local default runtime environment", href: "devguide/creating-and-publishing-applications/runtime-environment-management#node-local-default-runtime-environment" },
+    { text: "Creating new runtime environments", href: "devguide/creating-and-publishing-applications/runtime-environment-management#createnewrunenvironment" },
+    { text: "Deploying in development mode", href: "devguide/creating-and-publishing-applications/runtime-environment-management#deploy-in-development-mode" },
+    { text: "Deploying in production mode", href: "devguide/creating-and-publishing-applications/runtime-environment-management#deploy-in-production-mode" },
+    { text: "Managing node clusters with runtime environments", href: "devguide/creating-and-publishing-applications/runtime-environment-management#use-runtime-environment-to-manage-node-clusters" },
+    { text: "Managing node addresses", href: "devguide/creating-and-publishing-applications/runtime-environment-management#node-address" },
+    { text: "Monitoring node status", href: "devguide/creating-and-publishing-applications/runtime-environment-management#node-status" },
+    { text: "Deploying applications in runtime environments", href: "devguide/creating-and-publishing-applications/runtime-environment-management#deploy-application-in-runtime-environment" },
+    { text: "Deploying in production mode", href: "devguide/creating-and-publishing-applications/runtime-environment-management#deploy-production-mode" },
+    { text: "Deploying in development mode", href: "devguide/creating-and-publishing-applications/runtime-environment-management#deploy-development-mode" }
   ]} />
 </IndexCard>
 
@@ -212,13 +226,18 @@ Complete workflow from application creation to distributed deployment. Master ap
   description="Learn how to build and manage infinitely horizontally scalable distributed cluster architectures for high availability and performance."
 >
   <LinkGrid links={[
-    { text: "Four-Layer Architecture Model", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#four-layer-architecture" },
-    { text: "Typical Deployment Topology", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#typical-deployment-topology" },
-    { text: "Enterprise Cluster Deployment", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#enterprise-cluster-deployment" },
-    { text: "Multi-Dimensional Environment Division", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#multi-dimensional-environment-division" },
-    { text: "Cluster Scaling Strategies", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#cluster-scaling-strategies" },
-    { text: "Load Balancing & Fault Tolerance", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#load-balancing-fault-tolerance" },
-    { text: "Architecture Constraints & Best Practices", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#architecture-constraints-best-practices" }
+    { text: "Understanding the four-layer architecture model", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#four-layer-architecture" },
+    { text: "Designing enterprise cluster deployment architecture", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#enterprise-cluster-deployment" },
+    { text: "Implementing typical deployment topology", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#typical-deployment-topology" },
+    { text: "Organizing multi-dimensional environment division", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#multi-dimensional-environment-division" },
+    { text: "Configuring entry address strategies", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#entry-address-configuration" },
+    { text: "Implementing cluster scaling strategies", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#cluster-scaling-strategies" },
+    { text: "Deploying horizontal scaling modes", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#horizontal-scaling" },
+    { text: "Implementing load balancing and fault tolerance", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#load-balancing-fault-tolerance" },
+    { text: "Understanding architecture constraints and best practices", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#architecture-constraints-best-practices" },
+    { text: "Managing version constraints", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#version-management-constraints" },
+    { text: "Configuring network access constraints", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#network-access-constraints" },
+    { text: "Following deployment best practices", href: "devguide/creating-and-publishing-applications/distributed-cluster-architecture#deployment-best-practices" }
   ]} />
 </IndexCard>
 
@@ -283,11 +302,11 @@ Design beautiful user interfaces and interactive experiences. From portal naviga
   description="AI automatically generates data charts through natural language descriptions of requirements, supporting users to adjust chart styles and statistical dimensions at any time."
 >
   <LinkGrid links={[
-    { text: "Create AI Data Analysis Page", href: "devguide/shell-and-page/ai-data-analysis-page#create-ai-data-analysis-page" },
-    { text: "Page Configuration", href: "devguide/shell-and-page/ai-data-analysis-page#page-configuration" },
-    { text: "Runtime Effects Demo", href: "devguide/shell-and-page/ai-data-analysis-page#run-effects" },
-    { text: "Full Code Development", href: "devguide/shell-and-page/ai-data-analysis-page#full-code-development" },
-    { text: "Quick Create", href: "devguide/shell-and-page/ai-data-analysis-page#quick-create" }
+    { text: "Create AI data analysis page", href: "devguide/shell-and-page/ai-data-analysis-page#create-ai-data-analysis-page" },
+    { text: "Page configuration", href: "devguide/shell-and-page/ai-data-analysis-page#page-configuration" },
+    { text: "Runtime effects demo", href: "devguide/shell-and-page/ai-data-analysis-page#runtime-effects" },
+    { text: "Full code development", href: "devguide/shell-and-page/ai-data-analysis-page#full-code-development" },
+    { text: "Quick create", href: "devguide/shell-and-page/ai-data-analysis-page#quick-create" }
   ]} />
 </IndexCard>
 
@@ -337,7 +356,7 @@ Enhance user experience with intelligent AI elements. Integrate AI assistants, a
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '20px', marginBottom: '40px'}}>
 
 <IndexCard
-  title="Using AI Assistants in Portals"
+  title="Using AI Assistant in Portals"
   href="devguide/using-ai-in-portals-and-pages/using-ai-assistants-in-portals"
   description="Learn how to use AI assistants into portal interfaces, providing users with intelligent help and guidance throughout their workflow."
 >
@@ -347,7 +366,7 @@ Enhance user experience with intelligent AI elements. Integrate AI assistants, a
 </IndexCard>
 
 <IndexCard
-  title="Using AI Assistants in Component Pages"
+  title="Using AI Assistant in Component Pages"
   href="devguide/using-ai-in-portals-and-pages/using-ai-assistants-in-component-pages"
   description="Embed AI assistants into component-based pages to enhance user interactions and provide contextual assistance for specific tasks."
 >
@@ -1114,7 +1133,7 @@ Visual intelligent workflow engine. Orchestrate business processes through drag-
 
 <IndexCard
   title="AI Assistant API Integration"
-  href="devguide/ai-assistant/ai-assistant-api-integration"
+  href="devguide/ai-assistant/ai-assistant-api-exposure"
   description="Expose AI assistant capabilities through API interfaces for integration with external systems."
 >
   <div style={{padding: '20px', textAlign: 'center', color: '#888', fontStyle: 'italic'}}>
@@ -1818,18 +1837,20 @@ Make your application accessible to global users. Support multiple languages, re
   href="devguide/internationalization/creating-language-packages"
   description="Learn how to create custom language packages for your application, including structure definition and content organization."
 >
-  <div style={{padding: '20px', textAlign: 'center', color: '#888', fontStyle: 'italic'}}>
-    📝 Coming soon...
-  </div>
+  <LinkGrid links={[
+      { text: "Creating language packages", href: "devguide/internationalization/creating-language-packages#creating-language-packages" },
+      { text: "Translating built-in terms", href: "devguide/internationalization/creating-language-packages#translating-built-in-terms" },
+      { text: "Adding new terms", href: "devguide/internationalization/creating-language-packages#adding-new-terms" },
+      { text: "Importing terms", href: "devguide/internationalization/creating-language-packages#importing-terms" }
+  ]} />
 </IndexCard>
 
 <IndexCard
-  title="Extending System Builtin Language Packages"
+  title="Extending System Built-in Language Packages"
   href="devguide/internationalization/extending-system-builtin-language-packages"
   description="Extend and customize existing system language packages to meet specific business requirements and regional needs."
 >
   <div style={{padding: '20px', textAlign: 'center', color: '#888', fontStyle: 'italic'}}>
-    📝 Coming soon...
   </div>
 </IndexCard>
 
@@ -1838,9 +1859,36 @@ Make your application accessible to global users. Support multiple languages, re
   href="devguide/internationalization/how-to-translate-page-terms"
   description="Master the techniques for translating page content, including dynamic text replacement and context-aware translations."
 >
-  <div style={{padding: '20px', textAlign: 'center', color: '#888', fontStyle: 'italic'}}>
-    📝 Coming soon...
-  </div>
+  <LinkGrid links={[
+      { text: "Automatic text translation", href: "devguide/internationalization/how-to-translate-page-terms#automatic-text-translation" },
+      { text: "Dynamic text translation", href: "devguide/internationalization/how-to-translate-page-terms#dynamic-text-translation" },
+      { text: "DOM node attribute translation", href: "devguide/internationalization/how-to-translate-page-terms#dom-node-attribute-translation" },
+      { text: "Using API translation", href: "devguide/internationalization/how-to-translate-page-terms#using-api-translation" }
+  ]} />
+</IndexCard>
+
+<IndexCard
+  title="Translation Ignore Rules"
+  href="devguide/internationalization/translate-ignore-rules"
+  description="Configure rules to exclude specific content from translation, ensuring proper handling of brand names, technical terms, and other non-translatable content."
+>
+  <LinkGrid links={[
+      { text: "Basic usage", href: "devguide/internationalization/translate-ignore-rules#basic-usage" },
+      { text: "Advanced configuration", href: "devguide/internationalization/translate-ignore-rules#advanced-configuration" },
+      { text: "Configuration method", href: "devguide/internationalization/translate-ignore-rules#configuration-method" }
+  ]} />
+</IndexCard>
+
+<IndexCard
+  title="Default Language"
+  href="devguide/internationalization/default-language"
+  description="Configure the default language for your application to ensure optimal user experience for first-time visitors and users without explicit language preferences."
+>
+  <LinkGrid links={[
+      { text: "Default language configuration", href: "devguide/internationalization/default-language#default-language-configuration" },
+      { text: "Language selection strategy", href: "devguide/internationalization/default-language#language-selection-strategy" },
+      { text: "Configuration recommendations", href: "devguide/internationalization/default-language#configuration-recommendations" }
+  ]} />
 </IndexCard>
 
 </div>
