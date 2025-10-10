@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: using-ai-assistants-in-portals
 ---
 
-# Using AI Assistant in Regular Portals
+# Using AI Assistant in Generic Portals
 
 ## Configuring AI assistant {#configuring-ai-assistant}
 
@@ -24,7 +24,7 @@ After enabling AI assistant in the portal, the navigation bar will display the "
 
 ![Portals - AI Example](./img/portal-assistant-openmenu.gif)
 
-The AI assistant interface adopts a left-right split layout: the left side displays historical [Chat History](../ai-assistant/ai-chat-history), and the right side is the assistant conversation area.
+The AI assistant interface adopts a left-right split layout: the left side displays historical [Conversation History](../ai-assistant/ai-conversation-history), and the right side is the assistant conversation area.
 
 ## Feature highlights {#feature-highlights}
 

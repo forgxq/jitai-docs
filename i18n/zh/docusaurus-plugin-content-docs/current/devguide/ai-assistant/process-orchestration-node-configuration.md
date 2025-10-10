@@ -50,7 +50,7 @@ AI助理的可视化编排工具让你能够通过直观的拖拽操作设计复
 
 ![入参配置-路由决策](./img/assistant/router-input.png)
 
-从其他节点连线到路由决策节点时会自动弹出输入配置窗口，后续也可以通过点击连线上的` → `按钮打开。你可以把助理"记忆"中的变量传给它。
+从其他节点连线到路由决策节点时会自动弹出输入配置窗口，后续也可以通过点击连线上的` → `按钮打开。你可以把[助理状态](./ai-assistant-state)中的变量传给它。
 
 ### AIAgent {#ai-agent}
 AIAgent节点就是调用具体的AIAgent来处理特定任务。
@@ -59,13 +59,13 @@ AIAgent节点就是调用具体的AIAgent来处理特定任务。
 ![节点配置-AIAgent-绑定Agent](./img/assistant/aiagent-bindagent.png)
 
 #### 输入参数配置 {#input-parameter-configuration}
-节点运行时会调用Agent，并传入[Agent需要的参数](../ai-agent/agent-input-output#configure-input-variables)。
+节点运行时会调用Agent，并传入[Agent需要的参数](../ai-agent/agent-input-output#configuring-input-variables)。
 我们需要给这些参数赋值，配置方法如下：
 
 ![节点配置-AIAgent-输入参数](./img/assistant/aiagent-input.png)
 
 点击连线上的` → `按钮打开输入参数配置窗口。左边是Agent需要的变量，右边选择[运行状态数据](./ai-assistant-state.md#state-data-content)中的数据给Agent的变量赋值。
-这个节点运行完成后会把[Agent的输出结果](../ai-agent/agent-input-output#configure-output-results)存储到运行状态中，供其他节点使用。
+这个节点运行完成后会把[Agent的输出结果](../ai-agent/agent-input-output#configuring-output-results)存储到运行状态中，供其他节点使用。
 
 ### 对话区人机交互 {#action-in-conversation}
 **什么是对话区**：对话区就是一个AI对话框，是用户和助理聊天的地方。
